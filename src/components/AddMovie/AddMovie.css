@@ -1,72 +1,72 @@
 .add-movie {
-  background: var(--five-color);
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  color: white;
-  gap: 20px;
+    background: var(--five-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    gap: 20px;
 }
 .add-movie-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 60%;
 }
 
 .add-movie-field {
-  width: 100%;
-  background: #111;
-  padding: 5px;
-  border-radius: 5px;
-  height: 50px;
-  display: flex;
-  align-items: center;
+    width: 100%;
+    background: #111;
+    padding: 5px;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .add-movie-field input {
-  height: 100%;
-  width: 100%;
-  background: none;
-  outline: none;
-  border: none;
-  padding-left: 8px;
-  font-family: Montserrat;
-  font-weight: bold;
-  color: #fff;
+    height: 100%;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
 }
 
 .add-movie-field input:focus::placeholder {
-  color: #fff;
+    color: #fff;
 }
 
 .add-movie-field .icon {
-  margin-left: 8px;
-  color: gray;
+    margin-left: 8px;
+    color: gray;
 }
 
 .add-movie-button {
-  padding: 9px 28px;
-  font-family: Montserrat;
-  font-weight: bold;
-  border-radius: 3px;
-  margin: 15px 0;
-  border: none;
-  background: rgb(59, 59, 59);
-  color: #fff;
-  box-shadow: #000 0 2px 10px;
-  cursor: pointer;
+    padding: 9px 28px;
+    font-family: Montserrat;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 15px 0;
+    border: none;
+    background: rgb(59, 59, 59);
+    color: #fff;
+    box-shadow: #000 0 2px 10px;
+    cursor: pointer;
 }
 
 .add-movie-button:hover {
-  background: #000;
-  box-shadow: #222 0 2px 10px;
+    background: #000;
+    box-shadow: #222 0 2px 10px;
 }
 .add-movie-button:disabled {
-  cursor: not-allowed;
+    cursor: not-allowed;
 }

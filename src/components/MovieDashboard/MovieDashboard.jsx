@@ -29,14 +29,6 @@ function MovieDashboard() {
         setShow('');
     };
 
-    const backHandler = () => {
-        if (window.history.state && window.history.state.idx > 0) {
-            navigate(-1);
-        } else {
-            navigate('/', { replace: true }); // the current entry in the history stack will be replaced with the new one with { replace: true }
-        }
-    };
-
     return (
         <>
             <div
@@ -48,7 +40,7 @@ function MovieDashboard() {
                 }}
             ></div>
             <div className="layer"></div>
-            <div className="back__icon" onClick={() => backHandler()}>
+            <div className="back__icon" onClick={() => navigate('/')}>
                 <span>Back</span>
             </div>
 

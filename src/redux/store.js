@@ -3,7 +3,6 @@ import { setupListeners } from '@reduxjs/toolkit/query';
 import searchReducer from './searchSlice';
 import favReducer from './favSlice';
 import recentlyAddedReducer from './recentlyAddedSlice';
-import buttonReducer from './buttonSlice';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import { combineReducers } from '@reduxjs/toolkit';
@@ -13,7 +12,6 @@ const reducers = combineReducers({
     [moviesApi.reducerPath]: moviesApi.reducer,
     search: searchReducer,
     fav: favReducer,
-    button: buttonReducer,
     recentlyAdded: recentlyAddedReducer,
 });
 

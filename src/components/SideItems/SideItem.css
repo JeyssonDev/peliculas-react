@@ -1,4 +1,4 @@
-.sideitem{
+.sideitem {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -9,43 +9,39 @@
     text-decoration: none;
 }
 
-.sideitem:hover{
+.sideitem:hover {
     background: var(--five-color);
     cursor: pointer;
     border-left: 2px solid var(--second-color);
 }
 
-.sideitem:hover .icon{
+.sideitem:hover .icon {
     color: var(--second-color);
 }
 
-.sideitem:hover span{
+.sideitem:hover span {
     color: var(--second-color);
 }
 
-.active{
+.active {
     color: #fff;
     background: var(--five-color);
     border-left: 2px solid var(--second-color);
 }
 
-@media (max-width:1200px) {
-    .sideitem span{
-     display: none;
+@media (max-width: 1200px) {
+    .sideitem span {
+        display: none;
     }
- }
+}
 
- 
-
- @media (max-width:600px) {
-    .sideitem span{
-     display: flex;
+@media (max-width: 600px) {
+    .sideitem span {
+        display: flex;
     }
- }
- 
+}
 
-
-.close{
+.close {
     background: #fff;
     color: var(--second-color);
 }

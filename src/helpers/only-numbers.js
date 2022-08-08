@@ -1,3 +1,3 @@
 export const onlyNumbers = (value) => {
-  return value.replace(/[^0-9.]/g, "").replace(/(\..*?)\..*/g, "$1");
+    return value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');
 };
